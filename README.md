@@ -5,10 +5,10 @@ OpenCV for motion detection and face recognition.
 
 Behavior Tree logic:
 
-If motion detected: Start face recognition.
+- If motion detected: Start face recognition.
 
-If face is known: Ignore.
+- If face is known: Ignore.
 
-If unknown face: Trigger alarm or send notification.
+- If unknown face: Trigger alarm or send notification.
 
-If no movement for a while: Enter power-saving mode.
+- If no movement for a while: Enter power-saving mode.
